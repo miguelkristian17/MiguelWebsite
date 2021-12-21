@@ -1,0 +1,305 @@
+.s1{
+ background: url("/assets/images/la-background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.s2{
+    background: rgb(199,97,113);
+    background: linear-gradient(180deg, rgba(199,97,113,1) 0%, rgba(213,178,136,1) 100%, rgba(1,89,150,1) 100%);
+}
+
+.s3{
+    background: rgb(199,97,113);
+    background: linear-gradient(180deg, rgba(199,97,113,1) 0%, rgba(213,178,136,1) 0%, rgba(1,89,150,1) 100%);
+}
+
+.s4{
+    background: rgb(1,89,150);
+}
+
+.content{
+    padding: 0px 50px 0px 50px;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'lato',sans-serif;
+    font-weight: 420;
+    font-size: 50px;
+    background: -webkit-linear-gradient(black, #8aa6d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 6px
+}
+
+#text span{
+    color:#27153f;
+}
+#subtitle {
+    text-align: center;
+    font-family: 'lato',sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: -30px;
+    background:#27153f;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#subtitle2{
+    text-align: center;
+    font-family: 'lato',sans-serif;
+    font-weight: 670;
+    font-size: 60px;
+    margin-top: -30px;
+    background:#27153f;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#text{
+    font-family: 'lato',sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: -30px;
+    padding: 20px;
+    text-align: center;
+    background:white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+  .arrows {
+      width: 60px;
+      height: 78px;
+      position: absolute;
+      left: 50%;
+      margin-left: -30px;
+      bottom: 30px;
+  }
+  
+  .arrows path {
+      stroke: white;
+      fill: transparent;
+      stroke-width: 4px;	
+      animation: arrow 2s infinite;
+      -webkit-animation: arrow 2s infinite; 
+  }
+  
+  @keyframes arrow
+  {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+  }
+  
+  @-webkit-keyframes arrow 
+  {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+  }
+  
+  .arrows path.a1 {
+      animation-delay:-1s;
+      -webkit-animation-delay:-1s; 
+  }
+  
+  .arrows path.a2 {
+      animation-delay:-0.5s;
+      -webkit-animation-delay:-0.5s; 
+  }
+  
+  .arrows path.a3 {	
+      animation-delay:0s;
+      -webkit-animation-delay:0s;
+  }
+
+  #stack {
+      display: grid;
+      margin: 0px 30px 0px 30px;
+        grid-template-columns: repeat(12, 1fr);
+        align-self: start;
+        justify-items: center;
+        row-gap: 1rem;
+        grid-row-gap: 1rem;
+        column-gap: 1rem;
+  }
+#stack img{
+    width: 50%;
+    height: auto;
+}
+
+.fp-slidesNav.fp-bottom{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    height: auto;
+    color: white;
+    font-size: 20px;
+    font-family: 'lato',sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+}
+
+.fp-nav.fp-right{
+    right: 0;
+    top: 0;
+    height: 100%;
+    height: auto;
+    color: white;
+    font-size: 20px;
+    font-family: 'lato',sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+}
+/* Project section */
+
+.project-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    box-shadow: 5px;
+}
+a{
+    align-self: center;
+}
+button{
+    cursor: pointer;
+    background: #936A47;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'lato',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px;
+}
+#stack-bujo{
+    display: grid;
+    margin: 0px 30px 0px 30px;
+      grid-template-columns: repeat(8, 1fr);
+      align-self: start;
+      justify-items: center;
+      row-gap: 1rem;
+      grid-row-gap: 1rem;
+      column-gap: 1rem;
+}
+#stack-bujo img{
+  width: 50%;
+  height: 50%;
+}
+
+
+.project-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 5px;
+
+}
+#project-text{
+    font-family: 'lato',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    background:white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#stack-social {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-self: center;
+      justify-items: center;
+      column-rule-color: #FFF;
+      row-gap: 1rem;
+      grid-row-gap: 1rem;
+      column-gap: 1rem;
+}
+#stack-social img{
+  width: auto;
+  height: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    #title {
+        font-size: 30px;
+    }
+    #subtitle {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    #subtitle2{
+        font-size: 30px;
+    }
+    #text{
+        font-size: 15px;
+    }
+
+    .content{
+        padding: 0px 10px 0px 10px;
+    }
+
+    #stack {
+        display: grid;
+        margin: 0px 30px 0px 30px;
+        grid-template-columns: repeat(4, 1fr);
+        align-self: start;
+        justify-items: center;
+        row-gap: 1rem;
+        grid-row-gap: 1rem;
+        column-gap: 1rem;
+    }
+    #stack img{
+      width: 50%;
+      height: auto;
+    }
+
+    #stack-bujo{
+        display: grid;
+        margin: 0px 30px 0px 30px;
+          grid-template-columns: repeat(4, 1fr);
+          align-self: start;
+          justify-items: center;
+          row-gap: 1rem;
+          grid-row-gap: 1rem;
+          column-gap: 1rem;
+    }
+    #stack-bujo img{
+      width: 50%;
+      height: auto;
+    }
+    #stack-social img{
+        width: 50%;
+        height: auto;
+      }
+    
+}

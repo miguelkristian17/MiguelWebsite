@@ -8,7 +8,7 @@ var myFullpage = new fullpage('#fullpage', {
     anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
     navigationTooltips: ['Home', 'Bio', 'Projects', 'Contact'],
     showActiveTooltip: true,
-    controlArrows: false,
+//     controlArrows: false,
     slidesNavigation: true,
     slidesNavPosition: 'bottom'
 });

@@ -141,6 +141,11 @@
     height: auto;
 }
 
+.fp-controlArrow {
+    margin: 40px 50px 0px 50px;
+}
+
+
 .fp-slidesNav.fp-bottom{
     bottom: 0;
     left: 0;
